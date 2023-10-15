@@ -1,0 +1,49 @@
+form{
+   width: 50%;
+}
+button{
+   padding: 7px 15px;
+   background-color: #1ABC9C;
+   color: white;
+   border: none;
+}
+label{
+   position: relative;
+   top: 70px;
+   color: #1ABC9C;
+   transition: all .5s;
+   z-index: -1 !important;
+   
+}
+input{
+ box-shadow: none !important;
+   outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+   
+}
+
+@media screen and (max-width:653px) {
+   form{
+      width: 100% !important;
+   }
+   h1{
+      font-size: 20px;
+   }
+   nav{
+      padding: 20px;
+   }
+   
+}
+@media screen and (max-width:800px) {
+   form{
+      width: 100% !important;
+   }
+   h1{
+      font-size: 20px;
+   }
+   nav{
+      padding: 20px;
+   }
+   
+}

@@ -1,0 +1,28 @@
+section{
+    background-color: #1ABC9C;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.star2::after{
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+left: 52%;
+}
+.star2::before{
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 52%;
+
+}
